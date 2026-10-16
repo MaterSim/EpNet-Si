@@ -1,0 +1,6 @@
+&inputpp
+ prefix='sib3-sacada233', outdir='.', filplot='vtot.dat', plot_num=1
+/
+&plot
+ iflag=3, output_format=6, fileout='vtot.cube'
+/

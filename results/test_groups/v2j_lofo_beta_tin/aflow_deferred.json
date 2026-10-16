@@ -1,0 +1,22 @@
+{
+"model": "results/si_phase4/v2j_lofo/lofo_beta_tin/run/stage2.pt",
+"source": "aflow_deferred",
+"copied_from_official": false,
+"diagnostic": false,
+"cells": [
+{
+"id": "aflow_new-aflow-d28694a0827a1a1c",
+"source": "aflow_deferred",
+"set": "aflow_deferred",
+"family": "aflow_new_aflow-d28694a0827a1a1c",
+"part": null,
+"natoms": 106,
+"pbe_gap_eV": 0.13343717895842566,
+"group": "new",
+"gapped": true,
+"band_eV": 0.07015379159514554,
+"gap_eV": 0.044969536434640744,
+"grade": "pass"
+}
+]
+}

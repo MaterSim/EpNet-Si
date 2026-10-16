@@ -1,0 +1,38 @@
+&CONTROL
+ calculation='bands',
+ restart_mode='from_scratch',
+ prefix='si-diamond-uniaxial_a2_p0.03',
+ outdir='.',
+ pseudo_dir='../../pseudo',
+/
+&SYSTEM
+ ibrav=0,
+ nat=2,
+ ntyp=1,
+ ecutwfc=40,
+ ecutrho=320,
+ occupations='fixed',
+ nspin=1,
+ nbnd=10,
+/
+&ELECTRONS
+ conv_thr=1.0d-10, diagonalization='david', diago_thr_init=1.0d-9, diago_full_acc=.true.,
+/
+ATOMIC_SPECIES
+Si 1.0 Si.pbe-n-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+0 2.636407766990291 2.636407766990291
+2.7155 0 2.7155
+2.796965 2.796965 0
+ATOMIC_POSITIONS crystal
+Si 0 0 0
+Si 0.25 0.25 0.25
+K_POINTS crystal
+7
+0.000000000000 0.000000000000 0.000000000000 1
+0.421808668927 0.000000000000 0.421808668927 1
+0.578191331073 0.000000000000 0.578191331073 1
+0.000000000000 0.578191331073 0.578191331073 1
+0.000000000000 0.421808668927 0.421808668927 1
+0.421808668927 0.421808668927 0.000000000000 1
+0.578191331073 0.578191331073 0.000000000000 1

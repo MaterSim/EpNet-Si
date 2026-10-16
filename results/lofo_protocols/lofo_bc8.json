@@ -1,0 +1,343 @@
+{
+  "manifest": "results/si_phase4/v2j_lofo/lofo_bc8/manifest.json",
+  "manifest_sha256": "d020d7fc5fc2ae70a52c038e023ffc809eb9c8f4b195967802e768f0c48397ef",
+  "train_ids": [
+    "amsler_large-C07",
+    "oqmd-15748",
+    "oqmd-2021436",
+    "oqmd-2029570",
+    "oqmd-2029571",
+    "oqmd-2029572",
+    "oqmd-2029574",
+    "oqmd-2029575",
+    "oqmd-2031149",
+    "oqmd-2031150",
+    "oqmd-2032709",
+    "oqmd-2032710",
+    "oqmd-22408",
+    "oqmd-7479",
+    "sacada_reserve-sacada1004",
+    "sacada_reserve-sacada1059",
+    "sacada_reserve-sacada1128",
+    "sacada_reserve-sacada1166",
+    "sacada_reserve-sacada583",
+    "sacada_reserve-sacada936",
+    "si-4h-hydro_m0.04",
+    "si-4h-hydro_p0.04",
+    "si-4h-parent",
+    "si-4h-rattle_1",
+    "si-4h-uniaxial_a0_p0.04",
+    "si-bct-hydro_m0.04",
+    "si-bct-hydro_p0.04",
+    "si-bct-parent",
+    "si-bct-rattle_1",
+    "si-bct-uniaxial_a0_p0.04",
+    "si-beta_tin-hydro_m0.04",
+    "si-beta_tin-hydro_p0.04",
+    "si-beta_tin-parent",
+    "si-beta_tin-rattle_1",
+    "si-beta_tin-uniaxial_a0_p0.04",
+    "si-clathrate_i-hydro_m0.04",
+    "si-clathrate_i-hydro_p0.04",
+    "si-clathrate_i-parent",
+    "si-diamond-hydro_m0.04",
+    "si-diamond-hydro_p0.04",
+    "si-diamond-parent",
+    "si-diamond-rattle_1",
+    "si-diamond-uniaxial_a0_p0.04",
+    "si-lonsdaleite-hydro_m0.04",
+    "si-lonsdaleite-parent",
+    "si-lonsdaleite-shear_0.04",
+    "si-lonsdaleite-uniaxial_a0_p0.04",
+    "si-oC12-hydro_m0.04",
+    "si-oC12-hydro_p0.04",
+    "si-oC12-parent",
+    "si-oC12-rattle_1",
+    "si-oC12-uniaxial_a0_p0.04",
+    "si-r8-hydro_m0.04",
+    "si-r8-parent",
+    "si-r8-rattle_1",
+    "si-r8-uniaxial_a0_p0.04",
+    "si-simple_hex-hydro_m0.04",
+    "si-simple_hex-hydro_p0.04",
+    "si-simple_hex-parent",
+    "si-simple_hex-rattle_1",
+    "si-simple_hex-uniaxial_a0_p0.04",
+    "si-st12-hydro_m0.04",
+    "si-st12-parent",
+    "si-st12-rattle_0",
+    "si-tI16-hydro_m0.04",
+    "si-tI16-hydro_p0.04",
+    "si-tI16-parent",
+    "si-tI16-rattle_1",
+    "si-tI16-uniaxial_a0_p0.04",
+    "sib2-amsler-C43",
+    "sicage1-rattle_seed20260923",
+    "sicage1-uniaxial_a0_p002"
+  ],
+  "train_family_counts": {
+    "sacada_frameworks": 7,
+    "oqmd_frameworks": 11,
+    "large_void": 3,
+    "si_4h": 5,
+    "bct": 5,
+    "beta_tin": 5,
+    "clathrate_i": 5,
+    "diamond": 5,
+    "lonsdaleite": 4,
+    "oC12": 5,
+    "r8": 4,
+    "simple_hex": 5,
+    "st12": 3,
+    "tI16": 5
+  },
+  "oqmd_train_ids": [
+    "oqmd-2032709",
+    "oqmd-2032710",
+    "oqmd-2029575",
+    "oqmd-2031150",
+    "oqmd-22408",
+    "oqmd-2021436",
+    "oqmd-2029571",
+    "oqmd-2031149",
+    "oqmd-7479",
+    "oqmd-15748",
+    "oqmd-2029570"
+  ],
+  "exclude_ids": [
+    "si-r8-hydro_p0.04"
+  ],
+  "stages": [
+    {
+      "epochs": 400,
+      "lr": 0.001,
+      "sphere_lr": 0.0003,
+      "projector_lr": 0.003
+    },
+    {
+      "epochs": 300,
+      "lr": 0.0003,
+      "sphere_lr": 0.0001,
+      "projector_lr": 0.001
+    }
+  ],
+  "steps_per_epoch": 1,
+  "k_stride": 2,
+  "seed": 0,
+  "gap_weight": 1,
+  "router": {
+    "inputs": "log CN(r)/(4/3 pi r^3)/0.05, r=3,4,5,6,8,10 A",
+    "normalization": "family-balanced over train atoms",
+    "output_layer_gain": 4.0,
+    "mean": [
+      -0.37562695145606995,
+      -0.5572104454040527,
+      -0.22786638140678406,
+      -0.2962363660335541,
+      -0.2442285120487213,
+      -0.24655745923519135
+    ],
+    "std": [
+      0.40467655658721924,
+      0.42620766162872314,
+      0.12150094658136368,
+      0.20456582307815552,
+      0.15162444114685059,
+      0.1543588489294052
+    ],
+    "init_family_weights": {
+      "diamond": [
+        0.6017230153083801,
+        0.11425076425075531,
+        0.28402623534202576
+      ],
+      "bct": [
+        0.4771539270877838,
+        0.14714208245277405,
+        0.37570399045944214
+      ],
+      "bc8": [
+        0.45771026611328125,
+        0.18365536630153656,
+        0.358634352684021
+      ],
+      "beta_tin": [
+        0.6251888871192932,
+        0.2409224659204483,
+        0.1338886320590973
+      ],
+      "r8": [
+        0.42491212487220764,
+        0.2110692709684372,
+        0.36401858925819397
+      ],
+      "simple_hex": [
+        0.7898715138435364,
+        0.14810189604759216,
+        0.06202659755945206
+      ],
+      "tI16": [
+        0.2225341498851776,
+        0.21173781156539917,
+        0.5657280683517456
+      ],
+      "oC12": [
+        0.5964106917381287,
+        0.11610077321529388,
+        0.28748854994773865
+      ],
+      "lonsdaleite": [
+        0.5586768984794617,
+        0.1268528252840042,
+        0.3144703209400177
+      ],
+      "st12": [
+        0.3743644952774048,
+        0.2058151662349701,
+        0.4198203384876251
+      ],
+      "clathrate_i": [
+        0.4818600118160248,
+        0.1303785890340805,
+        0.3877614140510559
+      ],
+      "si_4h": [
+        0.5858013033866882,
+        0.1172666847705841,
+        0.29693201184272766
+      ],
+      "oqmd_frameworks": [
+        0.43533018231391907,
+        0.1743970662355423,
+        0.39027273654937744
+      ]
+    }
+  },
+  "purpose": "v2j lofo_bc8: all cells except family bc8; otherwise the v2j recipe (basis flags from the checkpoint). Diagnostic.",
+  "plans": [
+    {
+      "name": "run",
+      "note": "all cells except family bc8",
+      "run_dir": "results/si_phase4/v2j_lofo/lofo_bc8/run",
+      "init": "results/si_phase4/v2j_lofo/lofo_bc8/run/init.pt",
+      "init_sha256": "e63e3baebd981e2c1717c2f97441201f01ffe83c782c039d2497cd7d6f081ce9",
+      "channels": 16,
+      "encoder_cutoff": 6.0,
+      "gated": false,
+      "sp_head": true,
+      "residual_experts": 3,
+      "gap_mode": "signed",
+      "n_params": 6195,
+      "extra_args": [
+        "--channels",
+        "16",
+        "--encoder-cutoff",
+        "6.0",
+        "--gap-mode",
+        "signed",
+        "--deep-weight",
+        "0.1"
+      ],
+      "fold_k": true
+    }
+  ],
+  "code_sha256": {
+    "scripts/prepare_v2h_lofo.py": "5758d5e87f20cf2e4bd3c3b579082ccc9103295ec230c3fbe04658939c26851b",
+    "scripts/run_general_v1.py": "78110f1f8c36beaf1461caa42d8d25498990e1b408153ae5e7b8a4472a21cb2c",
+    "scripts/train_si_pbe_dataset.py": "8249906a3edbb3ac3bb4227593e8967628e2c82acd7fccff5c579f073ec7ce50",
+    "epnet/models/si_epm.py": "cccd563deee9397d6317b8d73f07a23382b2bf7b40832c3343faa147faefd07d",
+    "epnet/models/sp_projector.py": "159bc5f503cb7cf0fc7a9411dea1cd2289d12c0f3c8cdc519b10f49ffa397f2d",
+    "epnet/models/multipole_form_factor.py": "51ba4bd7825cdea83876bf04838e04aece28a9353dc90cada5a64d56cb52379b",
+    "epnet/train_cells.py": "882864d3002b89a62041520e8f3275f345a706cca2b5a25d9cdff45589d59e4d",
+    "epnet/hamiltonian/torch_pw.py": "66208b825d25d599a7755a9aa03f52e8832a65f18e9b25587a5891f2ebbe7821"
+  },
+  "density_targets_summary_sha256": "3e436ecb854a8fc3253c2a325bb5bd3533cdcc61b3e67458c9a0660c631ca381",
+  "selection": {
+    "rule": "(fixed 2 Oct 2026, before any model was scored on blind v4):\n  candidates  the gapped (PBE path gap > 0.02 eV) cells of results/si_train_v2/sacada_reserve and amsler_large,\n              i.e. the frameworks v2c added (never in blind v2/v3/v4)\n  bins        volume per atom in 0.5 A^3 bins from 19.8 A^3 (19.8-20.3, ..., 22.3-22.8): the range of the small\n              (<= 16-atom) candidates; v2b's frameworks failures on blind v3 sit in this range\n  pick        per bin the cell with the fewest atoms; ties broken by the larger PBE gap, then by id",
+    "picks": [
+      {
+        "id": "sacada_reserve-sacada936",
+        "natoms": 8,
+        "volume_per_atom": 20.100744619151232,
+        "pbe_gap_eV": 0.5049993474323351,
+        "bin": [
+          19.8,
+          20.3
+        ],
+        "n_candidates_in_bin": 4
+      },
+      {
+        "id": "sacada_reserve-sacada1166",
+        "natoms": 12,
+        "volume_per_atom": 20.799591989638902,
+        "pbe_gap_eV": 0.23323695770652808,
+        "bin": [
+          20.3,
+          20.8
+        ],
+        "n_candidates_in_bin": 3
+      },
+      {
+        "id": "sacada_reserve-sacada1004",
+        "natoms": 16,
+        "volume_per_atom": 20.920294025548966,
+        "pbe_gap_eV": 0.4624012656396186,
+        "bin": [
+          20.8,
+          21.3
+        ],
+        "n_candidates_in_bin": 3
+      },
+      {
+        "id": "sacada_reserve-sacada583",
+        "natoms": 12,
+        "volume_per_atom": 21.564247511715436,
+        "pbe_gap_eV": 0.8239762579736398,
+        "bin": [
+          21.3,
+          21.8
+        ],
+        "n_candidates_in_bin": 11
+      },
+      {
+        "id": "sacada_reserve-sacada1128",
+        "natoms": 8,
+        "volume_per_atom": 22.22876870683092,
+        "pbe_gap_eV": 0.5514068191083377,
+        "bin": [
+          21.8,
+          22.3
+        ],
+        "n_candidates_in_bin": 9
+      },
+      {
+        "id": "sacada_reserve-sacada1059",
+        "natoms": 12,
+        "volume_per_atom": 22.356822145241466,
+        "pbe_gap_eV": 1.1057372636330118,
+        "bin": [
+          22.3,
+          22.8
+        ],
+        "n_candidates_in_bin": 4
+      }
+    ]
+  },
+  "added": {
+    "compressed": [
+      "si-diamond-hydro_m0.04",
+      "si-4h-hydro_m0.04",
+      "si-lonsdaleite-hydro_m0.04",
+      "si-oC12-hydro_m0.04",
+      "si-bct-hydro_m0.04",
+      "si-clathrate_i-hydro_m0.04",
+      "si-bc8-hydro_m0.04",
+      "si-tI16-hydro_m0.04",
+      "si-beta_tin-hydro_m0.04",
+      "si-simple_hex-hydro_m0.04"
+    ],
+    "open_framework": "amsler_large-C07"
+  },
+  "warm_start": "results/si_phase4/v2j_lofo/lofo_bc8_pre/run/stage3.pt",
+  "source_protocol": "results/si_phase4/general_v2f/protocol.json"
+}

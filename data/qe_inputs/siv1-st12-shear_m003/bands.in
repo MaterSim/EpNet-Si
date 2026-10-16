@@ -1,0 +1,38 @@
+&CONTROL
+ calculation='bands', restart_mode='from_scratch',
+ prefix='siv1-st12-shear_m003', outdir='.', pseudo_dir='../../pseudo',
+/
+&SYSTEM
+ ibrav=0, nat=12, ntyp=1, ecutwfc=40, ecutrho=320,
+ occupations='fixed', nspin=1, nbnd=30,
+/
+&ELECTRONS
+ conv_thr=1.0d-10, diagonalization='david', diago_thr_init=1.0d-9, diago_full_acc=.true.,
+/
+ATOMIC_SPECIES
+Si 28.0855 Si.pbe-n-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+5.8 -0.08699999999999999 0
+-0.08699999999999999 5.8 0
+0 0 6.86
+ATOMIC_POSITIONS crystal
+Si 0.091 0.091 0
+Si 0.909 0.909 0.5
+Si 0.409 0.591 0.75
+Si 0.591 0.409 0.25
+Si 0.173 0.378 0.249
+Si 0.827 0.622 0.749
+Si 0.122 0.673 0.999
+Si 0.878 0.327 0.499
+Si 0.327 0.878 0.501
+Si 0.673 0.122 0.001
+Si 0.378 0.173 0.751
+Si 0.622 0.827 0.251
+K_POINTS crystal
+6
+0.250000000000 0.250000000000 0.000000000000 1
+0.750000000000 0.750000000000 0.000000000000 1
+0.750000000000 0.250000000000 0.000000000000 1
+0.250000000000 0.750000000000 0.000000000000 1
+0.000000000000 0.000000000000 0.486898365085 1
+0.000000000000 0.000000000000 0.513101634915 1

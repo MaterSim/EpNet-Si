@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epnet"
+version = "0.1.0"
+description = "Plane-wave empirical pseudopotential research tools"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "torch>=2.0",
+  "e3nn>=0.4.4",
+  "spglib>=2.5",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=7",
+  "ase>=3.22",       # epnet.data.open_frameworks (clathrate II builders used by the tests)
+  "pymatgen>=2023.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["epnet*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

@@ -1,0 +1,762 @@
+{
+"variant": "full",
+"model": "results/si_phase4/general_v2j/warm/stage2.pt",
+"cells": [
+{
+"band_eV": 0.015631079469788506,
+"gap_eV": 0.010650073597521015,
+"id": "sib3-diamond-strain_big",
+"family": "diamond",
+"part": "A",
+"gapped": true,
+"natoms": 2
+},
+{
+"band_eV": 0.01152762697811446,
+"gap_eV": 4.8749336790443465e-05,
+"id": "sib3-diamond-hydro_shear",
+"family": "diamond",
+"part": "A",
+"gapped": true,
+"natoms": 2
+},
+{
+"band_eV": 0.014122920163821983,
+"gap_eV": null,
+"id": "sib3-diamond-rattle_big",
+"family": "diamond",
+"part": "A",
+"gapped": false,
+"natoms": 2
+},
+{
+"band_eV": 0.013679929567489504,
+"gap_eV": 0.012192435127816204,
+"id": "sib3-si_4h-strain_big",
+"family": "si_4h",
+"part": "A",
+"gapped": true,
+"natoms": 8
+},
+{
+"band_eV": 0.014219259832834659,
+"gap_eV": 0.007761757653691248,
+"id": "sib3-si_4h-hydro_shear",
+"family": "si_4h",
+"part": "A",
+"gapped": true,
+"natoms": 8
+},
+{
+"band_eV": 0.023712281041687558,
+"gap_eV": 0.020803745364197823,
+"id": "sib3-si_4h-rattle_big",
+"family": "si_4h",
+"part": "A",
+"gapped": true,
+"natoms": 8
+},
+{
+"band_eV": 0.010776901758737061,
+"gap_eV": 0.0004727056469366886,
+"id": "sib3-st12-strain_big",
+"family": "st12",
+"part": "A",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.011077623923614268,
+"gap_eV": 0.004352332294911498,
+"id": "sib3-st12-hydro_shear",
+"family": "st12",
+"part": "A",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.010030474393402496,
+"gap_eV": 0.0016596870847713774,
+"id": "sib3-st12-rattle_big",
+"family": "st12",
+"part": "A",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.014821301404554925,
+"gap_eV": 0.006666747996740163,
+"id": "sib3-lonsdaleite-strain_big",
+"family": "lonsdaleite",
+"part": "A",
+"gapped": true,
+"natoms": 4
+},
+{
+"band_eV": 0.01600342537169433,
+"gap_eV": 0.0041741634509619985,
+"id": "sib3-lonsdaleite-hydro_shear",
+"family": "lonsdaleite",
+"part": "A",
+"gapped": true,
+"natoms": 4
+},
+{
+"band_eV": 0.029465505345102408,
+"gap_eV": 0.015682840599683168,
+"id": "sib3-lonsdaleite-rattle_big",
+"family": "lonsdaleite",
+"part": "A",
+"gapped": true,
+"natoms": 4
+},
+{
+"band_eV": 0.021930086685709945,
+"gap_eV": 0.007241555150023338,
+"id": "sib3-clathrate_i-strain_big",
+"family": "clathrate_i",
+"part": "A",
+"gapped": true,
+"natoms": 46
+},
+{
+"band_eV": 0.015437522229781906,
+"gap_eV": 0.003908032262041061,
+"id": "sib3-clathrate_i-hydro_shear",
+"family": "clathrate_i",
+"part": "A",
+"gapped": true,
+"natoms": 46
+},
+{
+"band_eV": 0.016147255256840035,
+"gap_eV": 0.020542302275686986,
+"id": "sib3-clathrate_i-rattle_big",
+"family": "clathrate_i",
+"part": "A",
+"gapped": true,
+"natoms": 46
+},
+{
+"band_eV": 0.025812797381802883,
+"gap_eV": 0.0036836569691480747,
+"id": "sib3-clathrate_ii-strain_big",
+"family": "clathrate_ii",
+"part": "A",
+"gapped": true,
+"natoms": 34
+},
+{
+"band_eV": 0.029009725841463416,
+"gap_eV": 0.0002169749784908248,
+"id": "sib3-clathrate_ii-hydro_shear",
+"family": "clathrate_ii",
+"part": "A",
+"gapped": true,
+"natoms": 34
+},
+{
+"band_eV": 0.022674458750781664,
+"gap_eV": 0.0228226456820666,
+"id": "sib3-clathrate_ii-rattle_big",
+"family": "clathrate_ii",
+"part": "A",
+"gapped": true,
+"natoms": 34
+},
+{
+"band_eV": 0.010693117383671461,
+"gap_eV": null,
+"id": "sib3-bc8-strain_big",
+"family": "bc8",
+"part": "A",
+"gapped": false,
+"natoms": 16
+},
+{
+"band_eV": 0.01048687247436202,
+"gap_eV": null,
+"id": "sib3-bc8-hydro_shear",
+"family": "bc8",
+"part": "A",
+"gapped": false,
+"natoms": 16
+},
+{
+"band_eV": 0.011488816263598744,
+"gap_eV": 0.005276907396221553,
+"id": "sib3-bc8-rattle_big",
+"family": "bc8",
+"part": "A",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.007610945180320894,
+"gap_eV": null,
+"id": "sib3-r8-strain_big",
+"family": "r8",
+"part": "A",
+"gapped": false,
+"natoms": 8
+},
+{
+"band_eV": 0.011720057068125813,
+"gap_eV": null,
+"id": "sib3-r8-hydro_shear",
+"family": "r8",
+"part": "A",
+"gapped": false,
+"natoms": 8
+},
+{
+"band_eV": 0.01439795991249917,
+"gap_eV": null,
+"id": "sib3-r8-rattle_big",
+"family": "r8",
+"part": "A",
+"gapped": false,
+"natoms": 8
+},
+{
+"band_eV": 0.014582241495956943,
+"gap_eV": 0.002843960561039971,
+"id": "sib3-bct-strain_big",
+"family": "bct",
+"part": "A",
+"gapped": true,
+"natoms": 4
+},
+{
+"band_eV": 0.015866376666920597,
+"gap_eV": 0.022541134699550547,
+"id": "sib3-bct-hydro_shear",
+"family": "bct",
+"part": "A",
+"gapped": true,
+"natoms": 4
+},
+{
+"band_eV": 0.01670013227390676,
+"gap_eV": null,
+"id": "sib3-bct-rattle_big",
+"family": "bct",
+"part": "A",
+"gapped": false,
+"natoms": 4
+},
+{
+"band_eV": 0.025620252751383417,
+"gap_eV": null,
+"id": "sib3-beta_tin-strain_big",
+"family": "beta_tin",
+"part": "A",
+"gapped": false,
+"natoms": 2
+},
+{
+"band_eV": 0.015636852203898054,
+"gap_eV": null,
+"id": "sib3-beta_tin-hydro_shear",
+"family": "beta_tin",
+"part": "A",
+"gapped": false,
+"natoms": 2
+},
+{
+"band_eV": 0.016959981371135788,
+"gap_eV": null,
+"id": "sib3-beta_tin-rattle_big",
+"family": "beta_tin",
+"part": "A",
+"gapped": false,
+"natoms": 2
+},
+{
+"band_eV": 0.01275124198377433,
+"gap_eV": null,
+"id": "sib3-simple_hex-strain_big",
+"family": "simple_hex",
+"part": "A",
+"gapped": false,
+"natoms": 1
+},
+{
+"band_eV": 0.016424146463106304,
+"gap_eV": null,
+"id": "sib3-simple_hex-hydro_shear",
+"family": "simple_hex",
+"part": "A",
+"gapped": false,
+"natoms": 1
+},
+{
+"band_eV": 0.02127834166533127,
+"gap_eV": null,
+"id": "sib3-simple_hex-strain_big_b",
+"family": "simple_hex",
+"part": "A",
+"gapped": false,
+"natoms": 1
+},
+{
+"band_eV": 0.008544372305789633,
+"gap_eV": null,
+"id": "sib3-tI16-strain_big",
+"family": "tI16",
+"part": "A",
+"gapped": false,
+"natoms": 16
+},
+{
+"band_eV": 0.0061396032634043135,
+"gap_eV": null,
+"id": "sib3-tI16-hydro_shear",
+"family": "tI16",
+"part": "A",
+"gapped": false,
+"natoms": 16
+},
+{
+"band_eV": 0.006640269570937318,
+"gap_eV": null,
+"id": "sib3-tI16-rattle_big",
+"family": "tI16",
+"part": "A",
+"gapped": false,
+"natoms": 16
+},
+{
+"band_eV": 0.011917977173052442,
+"gap_eV": 0.009998235918176945,
+"id": "sib3-oC12-strain_big",
+"family": "oC12",
+"part": "A",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.013489882117757814,
+"gap_eV": 0.003231994049610165,
+"id": "sib3-oC12-hydro_shear",
+"family": "oC12",
+"part": "A",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.01496718445844107,
+"gap_eV": 0.004172790947905902,
+"id": "sib3-oC12-rattle_big",
+"family": "oC12",
+"part": "A",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.07973463307987166,
+"gap_eV": 0.020436184356627862,
+"id": "sib3-sacada1149",
+"family": "sacada_1149",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.036599202426626634,
+"gap_eV": null,
+"id": "sib3-sacada675",
+"family": "sacada_675",
+"part": "B",
+"gapped": false,
+"natoms": 14
+},
+{
+"band_eV": 0.058846925815022696,
+"gap_eV": 0.07656439175208707,
+"id": "sib3-sacada682",
+"family": "sacada_682",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.03163040247862349,
+"gap_eV": null,
+"id": "sib3-sacada676",
+"family": "sacada_676",
+"part": "B",
+"gapped": false,
+"natoms": 14
+},
+{
+"band_eV": 0.02223677639217448,
+"gap_eV": 0.003571981439626448,
+"id": "sib3-sacada926",
+"family": "sacada_926",
+"part": "B",
+"gapped": true,
+"natoms": 18
+},
+{
+"band_eV": 0.015253222746983106,
+"gap_eV": 0.0068228125571216935,
+"id": "sib3-sacada701",
+"family": "sacada_701",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.0628707094400466,
+"gap_eV": 0.10194589046550284,
+"id": "sib3-sacada1062",
+"family": "sacada_1062",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.06522946098035255,
+"gap_eV": 0.11119816708430008,
+"id": "sib3-sacada1065",
+"family": "sacada_1065",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.08738244146733258,
+"gap_eV": 0.12790355410823828,
+"id": "sib3-sacada671",
+"family": "sacada_671",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.048452822124476665,
+"gap_eV": 0.0011749111119980782,
+"id": "sib3-sacada1064",
+"family": "sacada_1064",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.12117354653649916,
+"gap_eV": 0.183045986822588,
+"id": "sib3-sacada651",
+"family": "sacada_651",
+"part": "B",
+"gapped": true,
+"natoms": 24
+},
+{
+"band_eV": 0.15073573241832863,
+"gap_eV": 0.1898157624198884,
+"id": "sib3-sacada648",
+"family": "sacada_648",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.022212658884763134,
+"gap_eV": 0.06044692797283968,
+"id": "sib3-sacada1032",
+"family": "sacada_1032",
+"part": "B",
+"gapped": true,
+"natoms": 18
+},
+{
+"band_eV": 0.03551417897864246,
+"gap_eV": 0.027041931894263627,
+"id": "sib3-sacada678",
+"family": "sacada_678",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.06556574443959005,
+"gap_eV": 0.03390512145604774,
+"id": "sib3-sacada986",
+"family": "sacada_986",
+"part": "B",
+"gapped": true,
+"natoms": 14
+},
+{
+"band_eV": 0.023951769962344854,
+"gap_eV": 0.012093573092093912,
+"id": "sib3-sacada1106",
+"family": "sacada_1106",
+"part": "B",
+"gapped": true,
+"natoms": 20
+},
+{
+"band_eV": 0.03252108753821356,
+"gap_eV": 0.027500272772140733,
+"id": "sib3-sacada915",
+"family": "sacada_915",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.05438560273549218,
+"gap_eV": 0.048084382351416544,
+"id": "sib3-sacada568",
+"family": "sacada_568",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.025815288786189737,
+"gap_eV": 0.0033988388091934496,
+"id": "sib3-sacada620",
+"family": "sacada_620",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.018508129250157563,
+"gap_eV": 0.01284886387183004,
+"id": "sib3-sacada570",
+"family": "sacada_570",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.024859153172785114,
+"gap_eV": 0.017470695235892286,
+"id": "sib3-sacada81",
+"family": "sacada_81",
+"part": "B",
+"gapped": true,
+"natoms": 8
+},
+{
+"band_eV": 0.04527869142356219,
+"gap_eV": 0.08316627731415238,
+"id": "sib3-sacada581",
+"family": "sacada_581",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.03473806564468827,
+"gap_eV": 0.02606337821942084,
+"id": "sib3-sacada913",
+"family": "sacada_913",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.15748251708344196,
+"gap_eV": 0.2569910218864022,
+"id": "sib3-sacada960",
+"family": "sacada_960",
+"part": "B",
+"gapped": true,
+"natoms": 24
+},
+{
+"band_eV": 0.02625131705711088,
+"gap_eV": 0.03376932314938674,
+"id": "sib3-sacada1033",
+"family": "sacada_1033",
+"part": "B",
+"gapped": true,
+"natoms": 24
+},
+{
+"band_eV": 0.03309772896619569,
+"gap_eV": 0.04311109906596844,
+"id": "sib3-sacada1132",
+"family": "sacada_1132",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.024449717395481976,
+"gap_eV": 0.020474443035441325,
+"id": "sib3-sacada586",
+"family": "sacada_586",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.027339646456672355,
+"gap_eV": 0.01684521656472704,
+"id": "sib3-sacada576",
+"family": "sacada_576",
+"part": "B",
+"gapped": true,
+"natoms": 24
+},
+{
+"band_eV": 0.027324164503902817,
+"gap_eV": 0.026212090746412287,
+"id": "sib3-sacada587",
+"family": "sacada_587",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.023859123485255002,
+"gap_eV": 0.004555163506272386,
+"id": "sib3-sacada529",
+"family": "sacada_529",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.044246186092263294,
+"gap_eV": 0.015508457954862997,
+"id": "sib3-sacada1018",
+"family": "sacada_1018",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.011446692745602704,
+"gap_eV": 0.010224272277961077,
+"id": "sib3-sacada1017",
+"family": "sacada_1017",
+"part": "B",
+"gapped": true,
+"natoms": 16
+},
+{
+"band_eV": 0.017564219650478628,
+"gap_eV": 0.01133000266282913,
+"id": "sib3-sacada1058",
+"family": "sacada_1058",
+"part": "B",
+"gapped": true,
+"natoms": 20
+},
+{
+"band_eV": 0.038278450668618326,
+"gap_eV": 0.04274923932280572,
+"id": "sib3-sacada574",
+"family": "sacada_574",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.0647421267532424,
+"gap_eV": 0.047129225284598064,
+"id": "sib3-sacada573",
+"family": "sacada_573",
+"part": "B",
+"gapped": true,
+"natoms": 12
+},
+{
+"band_eV": 0.06925649019061157,
+"gap_eV": 0.08525912902520716,
+"id": "sib3-sacada572",
+"family": "sacada_572",
+"part": "B",
+"gapped": true,
+"natoms": 24
+},
+{
+"band_eV": 0.01862447152391705,
+"gap_eV": 0.01749009654707212,
+"id": "sib3-sacada906",
+"family": "sacada_906",
+"part": "B",
+"gapped": true,
+"natoms": 8
+},
+{
+"band_eV": 0.0701947639850979,
+"gap_eV": 0.40891541404197795,
+"id": "sib3-sacada233",
+"family": "sacada_233",
+"part": "B",
+"gapped": true,
+"natoms": 24
+},
+{
+"band_eV": 0.0366062438160056,
+"gap_eV": 0.03701504473049777,
+"id": "sib3-sacada1139",
+"family": "sacada_1139",
+"part": "B",
+"gapped": true,
+"natoms": 20
+},
+{
+"band_eV": 0.04699224796290766,
+"gap_eV": 0.12459165842885156,
+"id": "sib3-sacada1016",
+"family": "sacada_1016",
+"part": "B",
+"gapped": true,
+"natoms": 8
+},
+{
+"band_eV": 0.020881026733581987,
+"gap_eV": 4.237969795273244e-05,
+"id": "sib3-gen-part5",
+"family": "generated_part5",
+"part": "B",
+"gapped": true,
+"natoms": 8
+},
+{
+"band_eV": 0.017208565270301585,
+"gap_eV": 0.005949545899506248,
+"id": "sib3-polytype-5L-ABABC",
+"family": "polytype_ABABC",
+"part": "C",
+"gapped": true,
+"natoms": 10
+},
+{
+"band_eV": 0.019509320799055138,
+"gap_eV": 0.003474053741883587,
+"id": "sib3-polytype-7L-ABABABC",
+"family": "polytype_ABABABC",
+"part": "C",
+"gapped": true,
+"natoms": 14
+},
+{
+"band_eV": 0.015078856854054896,
+"gap_eV": 0.0007232441785838262,
+"id": "sib3-polytype-12L-ABABABABABAC",
+"family": "polytype_ABABABABABAC",
+"part": "C",
+"gapped": true,
+"natoms": 24
+},
+{
+"band_eV": 0.01431514603841972,
+"gap_eV": 0.0005222859985432038,
+"id": "sib3-polytype-12L-ABABABABACAC",
+"family": "polytype_ABABABABACAC",
+"part": "C",
+"gapped": true,
+"natoms": 24
+}
+]
+}

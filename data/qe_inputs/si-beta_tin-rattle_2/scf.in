@@ -1,0 +1,32 @@
+&CONTROL
+ calculation='scf',
+ restart_mode='from_scratch',
+ prefix='si-beta_tin-rattle_2',
+ outdir='.',
+ pseudo_dir='../../pseudo',
+/
+&SYSTEM
+ ibrav=0,
+ nat=2,
+ ntyp=1,
+ ecutwfc=40,
+ ecutrho=320,
+ occupations='smearing',
+ nspin=1,
+ degauss=0.01,
+ nbnd=12,
+/
+&ELECTRONS
+ conv_thr=1.0d-10,
+/
+ATOMIC_SPECIES
+Si 1.0 Si.pbe-n-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+-2.343 2.343 1.2925
+2.343 -2.343 1.2925
+2.343 2.343 -1.2925
+ATOMIC_POSITIONS crystal
+Si 0.02252919512817416 0.003810162252498646 0.9998492850100471
+Si 0.7447773710222082 0.2505501489976651 0.5011100476737298
+K_POINTS automatic
+4 4 4 0 0 0

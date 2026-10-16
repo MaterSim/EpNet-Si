@@ -1,0 +1,6 @@
+&inputpp
+ prefix='si-lonsdaleite-parent', outdir='.', filplot='vtot.dat', plot_num=1
+/
+&plot
+ iflag=3, output_format=6, fileout='vtot.cube'
+/

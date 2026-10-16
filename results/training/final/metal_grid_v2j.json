@@ -1,0 +1,300 @@
+{
+ "checkpoints": [
+  "v2j=results/si_phase4/general_v2j/warm/stage2.pt"
+ ],
+ "settings": {
+  "alignment": "PBE E_F (electron count) + median model offset within +-1 eV",
+  "fermi_smearing_eV": 0.05,
+  "dos_broadening_eV": 0.1,
+  "window_eV": 1.0,
+  "grid": "full uniform, ~0.12 1/A, nosym (scripts/si_oqmd_metal_grid.py)"
+ },
+ "metrics": [
+  {
+   "id": "oqmd-7479",
+   "family": "oqmd_sg74_Imma",
+   "split": "diag_fit",
+   "nk": 8464,
+   "nelec": 8.0,
+   "volume_per_atom": 15.25959004752704,
+   "v2j": {
+    "ef_ref_eV": 9.653051502964235,
+    "ef_pred_aligned_eV": 14.80973828425581,
+    "ef_pred_count_eV": 14.809176921844482,
+    "ef_selfconsistency_eV": -0.0005613624113269822,
+    "bandwidth_err_eV": 0.01671229351964243,
+    "ef_band_mae_eV": 0.01481418319597284,
+    "dos_l1_rel": 0.012333433246289995,
+    "n_ef_ref": 0.7076734632799472,
+    "n_ef_pred": 0.6980399501992186,
+    "n_ef_rel_err": 0.01361293531635177,
+    "misplaced_electron_frac": 0.0005923310495373427,
+    "n_points_window": 5972
+   }
+  },
+  {
+   "id": "oqmd-15748",
+   "family": "oqmd_sg64_Cmce",
+   "split": "diag_fit",
+   "nk": 1584,
+   "nelec": 32.0,
+   "volume_per_atom": 14.589043881592167,
+   "v2j": {
+    "ef_ref_eV": 10.42033554638246,
+    "ef_pred_aligned_eV": 15.55296894564507,
+    "ef_pred_count_eV": 15.554309368133545,
+    "ef_selfconsistency_eV": 0.0013404224884752125,
+    "bandwidth_err_eV": 0.048698600451295704,
+    "ef_band_mae_eV": 0.012242968748610238,
+    "dos_l1_rel": 0.011051485550789202,
+    "n_ef_ref": 2.966400155904264,
+    "n_ef_pred": 2.9614556264651815,
+    "n_ef_rel_err": 0.0016668450577178584,
+    "misplaced_electron_frac": 0.0005884626074574505,
+    "n_points_window": 5036
+   }
+  },
+  {
+   "id": "oqmd-691764",
+   "family": "oqmd_sg181_P6_422",
+   "split": "oqmd_holdout",
+   "nk": 4232,
+   "nelec": 12.0,
+   "volume_per_atom": 14.550311880122438,
+   "v2j": {
+    "ef_ref_eV": 10.61914982560755,
+    "ef_pred_aligned_eV": 15.719968027047791,
+    "ef_pred_count_eV": 15.726868152618408,
+    "ef_selfconsistency_eV": 0.006900125570616922,
+    "bandwidth_err_eV": -0.022609035869425753,
+    "ef_band_mae_eV": 0.019585159031047423,
+    "dos_l1_rel": 0.018832247767392035,
+    "n_ef_ref": 1.302942811944824,
+    "n_ef_pred": 1.2831363405586178,
+    "n_ef_rel_err": 0.015201335933265114,
+    "misplaced_electron_frac": 0.0009674726653311323,
+    "n_points_window": 5450
+   }
+  },
+  {
+   "id": "oqmd-691768",
+   "family": "oqmd_sg139_I4/mmm",
+   "split": "oqmd_holdout",
+   "nk": 15548,
+   "nelec": 4.0,
+   "volume_per_atom": 14.404228702192054,
+   "v2j": {
+    "ef_ref_eV": 10.720497637880236,
+    "ef_pred_aligned_eV": 15.818510489817617,
+    "ef_pred_count_eV": 15.813485622406006,
+    "ef_selfconsistency_eV": -0.005024867411611567,
+    "bandwidth_err_eV": -0.02936575443210998,
+    "ef_band_mae_eV": 0.024354970672373882,
+    "dos_l1_rel": 0.014606074176726885,
+    "n_ef_ref": 0.42535436963592566,
+    "n_ef_pred": 0.40973321737681884,
+    "n_ef_rel_err": 0.03672503064321986,
+    "misplaced_electron_frac": 0.0011618869276841138,
+    "n_points_window": 6376
+   }
+  },
+  {
+   "id": "oqmd-1214659",
+   "family": "oqmd_sg166_R-3m",
+   "split": "oqmd_holdout",
+   "nk": 9261,
+   "nelec": 4.0,
+   "volume_per_atom": 16.256902027784992,
+   "v2j": {
+    "ef_ref_eV": 8.709082793247578,
+    "ef_pred_aligned_eV": 13.839903988826375,
+    "ef_pred_count_eV": 13.83777666091919,
+    "ef_selfconsistency_eV": -0.0021273279071856166,
+    "bandwidth_err_eV": 0.032492240296074115,
+    "ef_band_mae_eV": 0.017413186017675285,
+    "dos_l1_rel": 0.019904870600724062,
+    "n_ef_ref": 0.48325573706079833,
+    "n_ef_pred": 0.4852485436120645,
+    "n_ef_rel_err": 0.0041237100740625365,
+    "misplaced_electron_frac": 0.0006024611151723329,
+    "n_points_window": 4042
+   }
+  },
+  {
+   "id": "oqmd-1214748",
+   "family": "oqmd_sg64_Cmce",
+   "split": "oqmd_holdout",
+   "nk": 2940,
+   "nelec": 16.0,
+   "volume_per_atom": 16.89933204201013,
+   "v2j": {
+    "ef_ref_eV": 8.323730026953609,
+    "ef_pred_aligned_eV": 13.50944401148626,
+    "ef_pred_count_eV": 13.51062822341919,
+    "ef_selfconsistency_eV": 0.0011842119329301681,
+    "bandwidth_err_eV": 0.09882442067334551,
+    "ef_band_mae_eV": 0.018341113533108303,
+    "dos_l1_rel": 0.015470627030738454,
+    "n_ef_ref": 1.5595236668583932,
+    "n_ef_pred": 1.5549805342463754,
+    "n_ef_rel_err": 0.0029131540024459612,
+    "misplaced_electron_frac": 0.0006764530140098207,
+    "n_points_window": 4578
+   }
+  },
+  {
+   "id": "oqmd-1214926",
+   "family": "oqmd_sg213_P4_132",
+   "split": "not_in_v1_manifest",
+   "nk": 512,
+   "nelec": 80.0,
+   "volume_per_atom": 15.730181392867015,
+   "v2j": {
+    "ef_ref_eV": 9.47728462794548,
+    "ef_pred_aligned_eV": 14.62198834005038,
+    "ef_pred_count_eV": 14.631879329681396,
+    "ef_selfconsistency_eV": 0.009890989631015756,
+    "bandwidth_err_eV": 0.07600200779486954,
+    "ef_band_mae_eV": 0.06097843419166094,
+    "dos_l1_rel": 0.0930339418836148,
+    "n_ef_ref": 7.928355610283183,
+    "n_ef_pred": 9.088424485694173,
+    "n_ef_rel_err": 0.14631897614511202,
+    "misplaced_electron_frac": 0.0031370334875952073,
+    "n_points_window": 4238
+   }
+  },
+  {
+   "id": "oqmd-1215015",
+   "family": "oqmd_sg223_Pm-3n",
+   "split": "not_in_v1_manifest",
+   "nk": 1331,
+   "nelec": 32.0,
+   "volume_per_atom": 14.778850794674726,
+   "v2j": {
+    "ef_ref_eV": 10.439461050844361,
+    "ef_pred_aligned_eV": 15.52560640595473,
+    "ef_pred_count_eV": 15.501145839691162,
+    "ef_selfconsistency_eV": -0.024460566263567074,
+    "bandwidth_err_eV": -0.0325430036018961,
+    "ef_band_mae_eV": 0.0586699223606299,
+    "dos_l1_rel": 0.09364094943679482,
+    "n_ef_ref": 4.2259514826965345,
+    "n_ef_pred": 3.7681766851650296,
+    "n_ef_rel_err": 0.1083246694634089,
+    "misplaced_electron_frac": 0.0030901772942320224,
+    "n_points_window": 4641
+   }
+  },
+  {
+   "id": "oqmd-1215193",
+   "family": "oqmd_sg229_Im-3m",
+   "split": "oqmd_holdout",
+   "nk": 15625,
+   "nelec": 4.0,
+   "volume_per_atom": 14.583059726263869,
+   "v2j": {
+    "ef_ref_eV": 10.51631196792659,
+    "ef_pred_aligned_eV": 15.635658395533355,
+    "ef_pred_count_eV": 15.634393215179443,
+    "ef_selfconsistency_eV": -0.0012651803539114326,
+    "bandwidth_err_eV": -0.05173765002841613,
+    "ef_band_mae_eV": 0.015099856565927251,
+    "dos_l1_rel": 0.016682876542618685,
+    "n_ef_ref": 0.43748800412593297,
+    "n_ef_pred": 0.43089815044892965,
+    "n_ef_rel_err": 0.015062935703047065,
+    "misplaced_electron_frac": 0.0007662465624916422,
+    "n_points_window": 7106
+   }
+  },
+  {
+   "id": "oqmd-1215817",
+   "family": "oqmd_sg166_R-3m",
+   "split": "oqmd_holdout",
+   "nk": 9261,
+   "nelec": 4.0,
+   "volume_per_atom": 16.181621770491077,
+   "v2j": {
+    "ef_ref_eV": 8.767685505256747,
+    "ef_pred_aligned_eV": 13.883031362498013,
+    "ef_pred_count_eV": 13.880690097808838,
+    "ef_selfconsistency_eV": -0.002341264689174949,
+    "bandwidth_err_eV": 0.0304023181467592,
+    "ef_band_mae_eV": 0.01886905414365277,
+    "dos_l1_rel": 0.020429163970625133,
+    "n_ef_ref": 0.48624338284681695,
+    "n_ef_pred": 0.48744566604800804,
+    "n_ef_rel_err": 0.0024725955017672607,
+    "misplaced_electron_frac": 0.0006706296542242703,
+    "n_points_window": 3994
+   }
+  },
+  {
+   "id": "oqmd-1215906",
+   "family": "oqmd_sg221_Pm-3m",
+   "split": "oqmd_holdout",
+   "nk": 9261,
+   "nelec": 4.0,
+   "volume_per_atom": 16.18775105007134,
+   "v2j": {
+    "ef_ref_eV": 8.762753229884954,
+    "ef_pred_aligned_eV": 13.879711585058285,
+    "ef_pred_count_eV": 13.877185344696045,
+    "ef_selfconsistency_eV": -0.0025262403622399177,
+    "bandwidth_err_eV": 0.030592201930929264,
+    "ef_band_mae_eV": 0.01872785011808938,
+    "dos_l1_rel": 0.020358166432342603,
+    "n_ef_ref": 0.4859856916341842,
+    "n_ef_pred": 0.4872252156932749,
+    "n_ef_rel_err": 0.0025505361174784635,
+    "misplaced_electron_frac": 0.0006599379319048491,
+    "n_points_window": 4042
+   }
+  },
+  {
+   "id": "oqmd-1472903",
+   "family": "oqmd_sg63_Cmcm",
+   "split": "oqmd_holdout",
+   "nk": 4851,
+   "nelec": 8.0,
+   "volume_per_atom": 15.921631660341289,
+   "v2j": {
+    "ef_ref_eV": 9.011585823801358,
+    "ef_pred_aligned_eV": 14.159293104898065,
+    "ef_pred_count_eV": 14.160946369171143,
+    "ef_selfconsistency_eV": 0.0016532642730773262,
+    "bandwidth_err_eV": 0.05476672297299956,
+    "ef_band_mae_eV": 0.02072756547644133,
+    "dos_l1_rel": 0.018669933959178653,
+    "n_ef_ref": 0.9035553888536784,
+    "n_ef_pred": 0.9175496615348897,
+    "n_ef_rel_err": 0.01548800754646118,
+    "misplaced_electron_frac": 0.0012494173540356479,
+    "n_points_window": 4124
+   }
+  },
+  {
+   "id": "oqmd-2029570",
+   "family": "oqmd_sg227_Fd-3m",
+   "split": "diag_fit",
+   "nk": 2197,
+   "nelec": 16.0,
+   "volume_per_atom": 21.501241468480945,
+   "v2j": {
+    "ef_ref_eV": 5.380450023361002,
+    "ef_pred_aligned_eV": 10.174045028026644,
+    "ef_pred_count_eV": 10.184993267059326,
+    "ef_selfconsistency_eV": 0.010948239032682494,
+    "bandwidth_err_eV": 0.09588085862334239,
+    "ef_band_mae_eV": 0.013711304263300252,
+    "dos_l1_rel": 0.021399939066310866,
+    "n_ef_ref": 1.4757565218693445,
+    "n_ef_pred": 1.418611606358825,
+    "n_ef_rel_err": 0.03872245500100102,
+    "misplaced_electron_frac": 0.0005408390557078521,
+    "n_points_window": 4228
+   }
+  }
+ ]
+}

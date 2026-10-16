@@ -1,0 +1,56 @@
+[
+ {
+  "row": "diamond (held out)",
+  "n": 24,
+  "full": 13.63077231325674,
+  "left_out": 17.49911397470062,
+  "gap_full": 7.519397747156617,
+  "gap_left_out": 5.874085280753505,
+  "grades": "24 pass"
+ },
+ {
+  "row": "clathrate I (held out)",
+  "n": 20,
+  "full": 18.85842558455562,
+  "left_out": 55.04541051217725,
+  "gap_full": 7.6516723764650685,
+  "gap_left_out": 41.50074365842973,
+  "grades": "16 pass, 2 near miss, 2 fail"
+ },
+ {
+  "row": "clathrate II (w/o clathrate I)",
+  "n": 22,
+  "full": 25.500734365837985,
+  "left_out": 30.609710449551798,
+  "gap_full": 14.873682775725388,
+  "gap_left_out": 33.39750817960355,
+  "grades": "17 pass, 4 near miss, 1 fail"
+ },
+ {
+  "row": "BC8 (held out)",
+  "n": 16,
+  "full": 7.918634341114818,
+  "left_out": 10.242605780562362,
+  "gap_full": 5.237806749248897,
+  "gap_left_out": 0.5729308606143846,
+  "grades": "16 pass"
+ },
+ {
+  "row": "\u03b2-Sn (held out)",
+  "n": 16,
+  "full": 16.908459156719648,
+  "left_out": 73.3556735202151,
+  "gap_full": null,
+  "gap_left_out": null,
+  "grades": "1 pass, 14 near miss, 1 fail"
+ },
+ {
+  "row": "simple hex (w/o \u03b2-Sn)",
+  "n": 16,
+  "full": 34.682353283036555,
+  "left_out": 132.996589380311,
+  "gap_full": null,
+  "gap_left_out": null,
+  "grades": "16 fail"
+ }
+]

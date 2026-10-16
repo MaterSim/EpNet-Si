@@ -1,0 +1,221 @@
+{
+ "known": {
+  "n": 231,
+  "n_gapped": 142,
+  "n_metal": 89,
+  "band_meV": 15.094502025279617,
+  "gap_meV": 7.689062049589868,
+  "median_gap_meV": 5.500415345084608,
+  "gapped_grades": {
+   "pass": 142,
+   "near_miss": 0,
+   "fail": 0
+  },
+  "metal_band_meV": 14.9757322188403,
+  "metal_grades": {
+   "pass": 88,
+   "near_miss": 1,
+   "fail": 0
+  },
+  "worst": {
+   "id": "si-lonsdaleite-rattle_2",
+   "source": "heldout",
+   "band_meV": 44.4636623061326,
+   "gap_meV": 44.63568725585887
+  },
+  "sets": {
+   "blind_v2": 48,
+   "blind_v3": 36,
+   "fresh": 40,
+   "v2b_train": 77,
+   "validation": 9,
+   "withheld": 21
+  },
+  "missing_metal_refs": 0,
+  "by_category": {
+   "combined": {
+    "n": 84,
+    "n_gapped": 47,
+    "band_meV": 15.005622774057434,
+    "gap_meV": 7.306545130233665,
+    "gapped_grades": {
+     "pass": 47,
+     "near_miss": 0,
+     "fail": 0
+    },
+    "n_metal": 37,
+    "metal_band_meV": 14.472413528455341,
+    "metal_grades": {
+     "pass": 37,
+     "near_miss": 0,
+     "fail": 0
+    }
+   },
+   "single": {
+    "n": 147,
+    "n_gapped": 95,
+    "band_meV": 15.13847386535796,
+    "gap_meV": 7.878307262323988,
+    "gapped_grades": {
+     "pass": 95,
+     "near_miss": 0,
+     "fail": 0
+    },
+    "n_metal": 52,
+    "metal_band_meV": 15.333862825460368,
+    "metal_grades": {
+     "pass": 51,
+     "near_miss": 1,
+     "fail": 0
+    }
+   }
+  }
+ },
+ "new": {
+  "n": 192,
+  "n_gapped": 165,
+  "n_metal": 27,
+  "band_meV": 38.414114309905955,
+  "gap_meV": 49.08348479183786,
+  "median_gap_meV": 24.954023500715294,
+  "gapped_grades": {
+   "pass": 120,
+   "near_miss": 20,
+   "fail": 25
+  },
+  "metal_band_meV": 21.054837485068074,
+  "metal_grades": {
+   "pass": 22,
+   "near_miss": 5,
+   "fail": 0
+  },
+  "worst": {
+   "id": "sib3-sacada233",
+   "source": "blind_v3",
+   "band_meV": 70.19468266907501,
+   "gap_meV": 408.91255301902873
+  },
+  "sets": {
+   "aflow_deferred": 1,
+   "amsler_large": 16,
+   "blind_v2": 29,
+   "blind_v3": 48,
+   "blind_v4": 40,
+   "fresh": 8,
+   "oqmd": 16,
+   "sacada_reserve": 27,
+   "withheld": 7
+  },
+  "missing_metal_refs": 0,
+  "by_category": {
+   "AFLOW": {
+    "n": 11,
+    "n_gapped": 8,
+    "band_meV": 45.28347501860922,
+    "gap_meV": 66.26571650931767,
+    "gapped_grades": {
+     "pass": 5,
+     "near_miss": 2,
+     "fail": 1
+    },
+    "n_metal": 3,
+    "metal_band_meV": 16.928411358842627,
+    "metal_grades": {
+     "pass": 3,
+     "near_miss": 0,
+     "fail": 0
+    }
+   },
+   "Amsler": {
+    "n": 35,
+    "n_gapped": 34,
+    "band_meV": 41.98865505710891,
+    "gap_meV": 75.89927970209712,
+    "gapped_grades": {
+     "pass": 20,
+     "near_miss": 6,
+     "fail": 8
+    },
+    "n_metal": 1,
+    "metal_band_meV": 27.41947109613707,
+    "metal_grades": {
+     "pass": 0,
+     "near_miss": 1,
+     "fail": 0
+    }
+   },
+   "OQMD": {
+    "n": 17,
+    "n_gapped": 7,
+    "band_meV": 25.323863204107795,
+    "gap_meV": 19.11864402124446,
+    "gapped_grades": {
+     "pass": 6,
+     "near_miss": 1,
+     "fail": 0
+    },
+    "n_metal": 10,
+    "metal_band_meV": 26.324758120725175,
+    "metal_grades": {
+     "pass": 8,
+     "near_miss": 2,
+     "fail": 0
+    }
+   },
+   "SACADA": {
+    "n": 97,
+    "n_gapped": 84,
+    "band_meV": 43.485802277019275,
+    "gap_meV": 53.66218032743407,
+    "gapped_grades": {
+     "pass": 57,
+     "near_miss": 11,
+     "fail": 16
+    },
+    "n_metal": 13,
+    "metal_band_meV": 17.4637173628401,
+    "metal_grades": {
+     "pass": 11,
+     "near_miss": 2,
+     "fail": 0
+    }
+   },
+   "clathrate II": {
+    "n": 22,
+    "n_gapped": 22,
+    "band_meV": 25.500734365837985,
+    "gap_meV": 14.873682775725388,
+    "gapped_grades": {
+     "pass": 22,
+     "near_miss": 0,
+     "fail": 0
+    },
+    "n_metal": 0,
+    "metal_band_meV": null,
+    "metal_grades": {
+     "pass": 0,
+     "near_miss": 0,
+     "fail": 0
+    }
+   },
+   "polytypes, random search": {
+    "n": 10,
+    "n_gapped": 10,
+    "band_meV": 15.735619929709697,
+    "gap_meV": 1.9399071988273064,
+    "gapped_grades": {
+     "pass": 10,
+     "near_miss": 0,
+     "fail": 0
+    },
+    "n_metal": 0,
+    "metal_band_meV": null,
+    "metal_grades": {
+     "pass": 0,
+     "near_miss": 0,
+     "fail": 0
+    }
+   }
+  }
+ }
+}

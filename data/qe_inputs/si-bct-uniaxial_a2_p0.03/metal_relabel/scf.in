@@ -1,0 +1,24 @@
+&CONTROL
+ calculation='scf', restart_mode='from_scratch',
+ prefix='si-bct-uniaxial_a2_p0.03', outdir='.', pseudo_dir='../../../pseudo',
+/
+&SYSTEM
+ ibrav=0, nat=4, ntyp=1, ecutwfc=40, ecutrho=320,
+ occupations='smearing', smearing='mv', degauss=0.01, nspin=1, nbnd=24,
+/
+&ELECTRONS
+ conv_thr=1.0d-10, electron_maxstep=200,
+/
+ATOMIC_SPECIES
+Si 28.0855 Si.pbe-n-kjpaw_psl.1.0.0.UPF
+CELL_PARAMETERS angstrom
+-3.199029126213592 3.199029126213592 1.849514563106796
+3.295 -3.295 1.905
+3.39385 3.39385 -1.96215
+ATOMIC_POSITIONS crystal
+Si 0.1790591805766313 0.1790591805766313 0.3581183611532625
+Si 0.8209408194233687 0.8209408194233687 0.6418816388467374
+Si 0.1790591805766313 0.8209408194233687 0
+Si 0.8209408194233687 0.1790591805766313 0
+K_POINTS automatic
+14 13 9 0 0 0
